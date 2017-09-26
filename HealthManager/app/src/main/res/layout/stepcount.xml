@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Steps Taken Since Last Reboot"
+        android:textColor="#c10000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_stepcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_calorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Calories Burnt"
+        android:textColor="#c10000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_caloriecount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_stepd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Last Step Taken"
+        android:textColor="#c10000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_stepdetector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="30sp" />
+</LinearLayout>

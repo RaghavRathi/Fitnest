@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.healthmanager.Signup">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/name3"
+        android:drawablePadding="5dp"
+        android:layout_margin="3dp"
+        android:hint="NAME" />
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/height"
+        android:hint="HEIGHT(IN CMS)" />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/age"
+        android:drawablePadding="5dp"
+        android:layout_margin="3dp"
+        android:hint="AGE" />
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/weight"
+        android:drawablePadding="5dp"
+        android:hint="WEIGHT" />
+
+    <EditText
+        android:id="@+id/et_gender"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/gender"
+        android:drawablePadding="5dp"
+        android:hint="GENDER" />
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/email1"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/password1"
+        android:drawablePadding="5dp"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_confirmpass"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CONFIRM PASSWORD"
+        android:drawableLeft="@drawable/confirm_password"
+        android:drawablePadding="5dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_background"
+        android:text="SUBMIT"
+        android:textSize="30dp"
+        android:fontFamily="serif"
+        android:textStyle="bold|italic"
+        android:textColor="#e11600" />
+</LinearLayout>

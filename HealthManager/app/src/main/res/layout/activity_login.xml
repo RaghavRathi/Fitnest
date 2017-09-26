@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.healthmanager.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#1040ea"
+        android:textSize="40dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="2dp"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="2dp"
+        android:hint="PASSWORD"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="serif"
+        android:text="SIGN IN"
+        android:textColor="#e11600"
+        android:textSize="30dp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="serif"
+        android:text="REGISTER HERE"
+        android:textColor="#e11600"
+        android:textSize="30dp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="---------or connect with--------"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/face"
+            android:drawableLeft="@drawable/facebook"
+            android:drawablePadding="2dp"
+            android:text="FACEBOOK"
+            android:textAlignment="viewStart"
+            android:textColor="#fdfcfc"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/goog"
+            android:drawableLeft="@drawable/google"
+            android:drawablePadding="2dp"
+            android:text="GMAIL"
+            android:textAlignment="textStart"
+            android:textColor="#fdfcfc"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

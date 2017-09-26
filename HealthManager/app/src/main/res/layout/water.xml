@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="AGE(IN YEARS)"
+            android:textColor="#d70000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/et_age"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/age"
+            android:drawablePadding="10dp"
+            android:hint="Enter your age" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="HEIGHT(IN CMS)"
+            android:textColor="#d70000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/et_height"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/height"
+            android:drawablePadding="4dp"
+            android:hint="Enter your Height(in cms)" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="WEIGHT (KG)"
+            android:textColor="#d70000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/et_weight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/weight"
+            android:drawablePadding="10dp"
+            android:hint="Enter your weight" />
+
+
+        <Button
+            android:id="@+id/btn_determine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_background"
+            android:text="DETERMINE"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:text="YOUR DAILY WATER INTAKE SHOULD BE"
+            android:textColor="#ff1b1b"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/tv_determine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:text="WATER INTAKE"
+            android:textColor="#f18d01"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="To Know water content in various Fruits and Vegetables "
+            android:textColor="#ff1b1b"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_click"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="CLICK HERE"
+            android:textColor="#5004b3"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</ScrollView>
